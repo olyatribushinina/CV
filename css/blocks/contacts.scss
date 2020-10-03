@@ -1,0 +1,26 @@
+.contacts {
+	max-height: 700px;
+	min-width: 1200px;
+}
+
+.contacts__inner {
+	display: flex;
+	width: 100%;
+}
+
+ .contacts-block {
+ 	flex-direction: column;
+	width: 60%;
+	padding: 4.33rem 4.33rem 0;
+	margin-left: 0 -1rem;
+
+
+	.intro__phone, .intro__email {
+		margin-left: 0;
+	}
+	
+
+	.intro__phone, .intro__email, .intro__address {
+		margin-bottom: 1.33rem;
+	}
+}

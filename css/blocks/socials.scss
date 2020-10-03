@@ -1,0 +1,20 @@
+.social_vk, .social_github {
+	width: 21px;	
+	height: 21px;
+}
+					
+.social-link {
+	text-decoration: none;
+	margin-right: 1.2rem;
+}
+
+.footer__social {
+	flex: 1;
+	align-items: center;
+
+	.social-link--vk {
+		margin-left: 33%;
+	}
+}
+
+		

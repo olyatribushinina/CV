@@ -1,0 +1,79 @@
+.intro {
+	height: 100vh;
+	min-width: 1200px;
+}
+.intro__inner {
+	display: flex;
+	margin-top: 23px;
+	height: 100%;
+	min-height: 785px;
+}
+
+.intro__photo {
+	padding-top: 4.33rem;
+	padding-bottom: 4.33rem;
+	width: 45%;
+	background-color: #f8f8f8;
+
+}
+
+.intro__pic {
+	text-align: center;
+	vertical-align: center;
+
+	img {
+		max-width: 255px;
+		max-height: 255px;
+		border-radius: 50%;
+	}
+}
+
+.intro__content {
+	padding-top: 8rem;
+	margin-left: 5.13rem;
+	width: 60%;
+}
+
+.intro__title {
+	font-size: 3.5rem;
+	// font-size: 47px;
+	font-weight: 300;
+}
+
+.intro__subtitle {
+	font-size: 3.5rem;
+	// font-size: 47px;
+	color: #f8bb10;
+	font-weight: 600;
+}
+
+.intro__prof {
+	font-size: 1rem;
+	font-weight: 400;
+	// font-size: 14px;
+	padding-top: 2.26rem;
+	padding-bottom: 4rem;
+	padding-left: 0.6rem;
+}
+
+.intro__contacts {
+	display: flex;
+	padding-top: 4.33rem;
+	border-top: 1px solid;
+	border-top-color: rgba(#000, .7);
+	
+
+	.intro__phone, .intro__address, .intro__email {
+		font-size: 0.8rem;
+		font-weight: 400;
+		font-style: normal;
+		color: #000;
+		text-decoration: none;
+	}
+
+	.intro__phone, .intro__email {
+		margin-left: 5.33rem;
+		line-height: 2.5;
+	}
+	
+}

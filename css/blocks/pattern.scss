@@ -1,0 +1,15 @@
+.pattern {
+	height: 700px;
+	padding-bottom: 4.33rem;
+	width: 40%;
+	background-color: #f8f8f8;
+
+	&__subtitle {
+		font-size: 1.2rem;
+    	line-height: 1.45;
+    	text-transform: uppercase;
+    	color: #000;
+    	text-align: right;
+    	padding: 4.33rem 4.86rem 1.53rem;
+	}
+}

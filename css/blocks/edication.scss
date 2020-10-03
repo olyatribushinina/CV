@@ -1,0 +1,54 @@
+.edication__inner {
+	display: flex;
+	min-width: 1200px;
+	max-height: 700px;
+}
+
+.edication__content {
+	width: 60%;
+	padding: 4.33rem 4.33rem 0;
+	margin-left: 0 -1rem;
+}
+
+.edication__timeline {
+		border-left-width: 0.13rem;
+		border-left-style: solid;
+		border-color: #f8bb10;
+		padding-left: 1.66rem;
+		position: relative;
+	}
+
+.edication__item {
+			display: flex;
+			margin-bottom: 1.33rem;
+			position: relative;
+}
+
+.edication__point {
+	height: 12px;
+    width: 12px;
+    position: absolute;
+    left: -2.13rem;
+    border-radius: 50%;
+    background: #F8BB10;
+}
+
+.edication__col {
+	padding-right: 3.5rem;
+	width: 50%;
+}
+
+.edication__timeframe, .edication__location {
+	opacity: .6;
+    font-size: 0.7rem;
+}
+
+.edication__heading {
+	font-size: 1.2rem;
+    line-height: 1.45;
+    text-transform: uppercase;
+}
+
+.edication__timeframe, .edication__location, .edication__heading, .edication__profname {
+	margin-bottom: .4rem;
+}

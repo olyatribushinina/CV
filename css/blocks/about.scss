@@ -1,0 +1,32 @@
+.about {
+	height: 100vh;
+	max-height: 700px;
+	min-width: 1200px;
+}
+
+.about__inner {
+	display: flex;
+	width: 100%;
+}
+
+.about__content {
+	width: 60%;
+	padding: 4.33rem 4.33rem 0;
+	margin-left: 0 -1rem;
+
+	.about__text {
+		margin-bottom: 4.33rem;
+
+
+		a {
+			text-decoration: none;
+			color: #f8bb10;
+		}
+
+		p {
+			margin-bottom: 0.66rem;
+		}
+	}
+
+}
+
