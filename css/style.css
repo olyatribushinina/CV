@@ -109,7 +109,6 @@ p {
     color: #000; }
 
 .intro {
-  height: 100vh;
   min-width: 1200px; }
 
 .intro__inner {
@@ -121,14 +120,14 @@ p {
   min-height: 785px; }
 
 .intro__photo {
-  padding-top: 4.33rem;
-  padding-bottom: 4.33rem;
-  width: 45%;
+  width: 44.5%;
+  position: relative;
   background-color: #f8f8f8; }
 
 .intro__pic {
-  text-align: center;
-  vertical-align: center; }
+  position: absolute;
+  top: 20%;
+  left: 25%; }
   .intro__pic img {
     max-width: 255px;
     max-height: 255px;
@@ -173,7 +172,6 @@ p {
     line-height: 2.5; }
 
 .projects {
-  height: 100vh;
   max-height: 650px;
   min-width: 1200px; }
   .projects .projects__inner {
@@ -279,7 +277,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-width: 1200px;
-  max-height: 700px; }
+  max-height: 500px; }
 
 .edication__content {
   width: 60%;
@@ -341,7 +339,8 @@ p {
   flex-direction: column;
   width: 60%;
   padding: 4.33rem 4.33rem 0;
-  margin-left: 0 -1rem; }
+  margin-left: 0 -1rem;
+  margin-bottom: 2.6rem; }
   .contacts-block .intro__phone, .contacts-block .intro__email {
     margin-left: 0; }
   .contacts-block .intro__phone, .contacts-block .intro__email, .contacts-block .intro__address {

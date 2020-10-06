@@ -1,5 +1,4 @@
 .intro {
-	height: 100vh;
 	min-width: 1200px;
 }
 .intro__inner {
@@ -10,16 +9,16 @@
 }
 
 .intro__photo {
-	padding-top: 4.33rem;
-	padding-bottom: 4.33rem;
-	width: 45%;
+	width: 44.5%;
+	position: relative;
 	background-color: #f8f8f8;
 
 }
 
 .intro__pic {
-	text-align: center;
-	vertical-align: center;
+	position: absolute;
+	top: 20%;
+	left: 25%;
 
 	img {
 		max-width: 255px;
@@ -36,13 +35,11 @@
 
 .intro__title {
 	font-size: 3.5rem;
-	// font-size: 47px;
 	font-weight: 300;
 }
 
 .intro__subtitle {
 	font-size: 3.5rem;
-	// font-size: 47px;
 	color: #f8bb10;
 	font-weight: 600;
 }
@@ -50,7 +47,6 @@
 .intro__prof {
 	font-size: 1rem;
 	font-weight: 400;
-	// font-size: 14px;
 	padding-top: 2.26rem;
 	padding-bottom: 4rem;
 	padding-left: 0.6rem;
